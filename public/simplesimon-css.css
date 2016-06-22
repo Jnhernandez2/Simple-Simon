@@ -7,9 +7,9 @@
 	border-top: 200px solid red;
 	color: white;
 	margin: 50px;
-	position: absolute;
-	top: 100px;
-	left: 475px;
+	position: relative;
+	top: 300px;
+	left: 500px;
 }
 
 #blue {/*
@@ -21,9 +21,9 @@
 	border-bottom: 100px solid transparent;
 	color: white;
 	margin: 50px;
-	position: absolute;
-	top: 200px;
-	left: 575px;
+	position: relative;
+	top: -100px;
+	left: 600px;
 }
 
 #yellow {
@@ -35,9 +35,9 @@
 	border-bottom: 200px solid yellow;
 	color: white;
 	margin: 50px;
-	position: absolute;
-	top: 300px;
-	left: 475px;
+	position: relative;
+	top: 250px;
+	left: 500px;
 }
 
 #green {
@@ -48,9 +48,13 @@
 	border-bottom: 100px solid transparent;
 	color: white;
 	margin: 50px;
-	position: absolute;
-	top: 200px;
-	left: 375px;
+	position: relative;
+	top: -350px;
+	left: 400px;
+}
+
+html {
+	background-color: black;
 }
 
 body {
@@ -61,7 +65,6 @@ body {
 
 h1 {
 	text-align: center;
-	margin-top: 50px;
 	color: white;
 	font-family: sans-serif;
 }
